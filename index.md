@@ -16,13 +16,13 @@ For complex models or memory-intensive one-shot methods, specialized *Pipelines*
 
 ```mermaid
 flowchart TD
-    A0["Entrypoints (`oneshot`, `train`)"]
+    A0["Entrypoints (oneshot, train)"]
     A1["Recipe"]
     A2["Modifier"]
-    A3["Arguments (`ModelArguments`, `DatasetArguments`, `RecipeArguments`, `TrainingArguments`)"]
+    A3["Arguments (ModelArguments, DatasetArguments, RecipeArguments, TrainingArguments)"]
     A4["Compression Session & Lifecycle"]
     A5["State"]
-    A6["Pipelines (`sequential`, `layer_sequential`, `basic`)"]
+    A6["Pipelines (sequential, layer_sequential, basic)"]
     A7["Tracing"]
     A8["Observer"]
     A0 -- "Parses Arguments" --> A3
@@ -30,13 +30,13 @@ flowchart TD
     A0 -- "Initializes State via Session" --> A5
     A1 -- "Specifies Modifiers" --> A2
     A2 -- "Accesses/Modifies State" --> A5
-    A2 -- "Uses Observers (for Quantiz..." --> A8
+    A2 -- "Uses Observers (for Quantization" --> A8
     A3 -- "Specifies Recipe Source" --> A1
     A4 -- "Loads & Compiles Recipe" --> A1
     A4 -- "Executes Modifiers" --> A2
     A4 -- "Holds State" --> A5
     A4 -- "Uses Pipelines (for One-shot)" --> A6
-    A6 -- "Uses Tracing (Sequential Pi..." --> A7
+    A6 -- "Uses Tracing (Sequential Pipelines" --> A7
 ```
 
 ## Chapters
