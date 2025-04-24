@@ -42,8 +42,7 @@ flowchart TD
 
 ## Chapters
 
-1. [Entrypoints (`oneshot`, `train`)
-](01_entrypoints___oneshot____train___.md)
+1. [Entrypoints (`oneshot`, `train`)]
 2. [Arguments (`ModelArguments`, `DatasetArguments`, `RecipeArguments`, `TrainingArguments`)
 ](02_arguments___modelarguments____datasetarguments____recipearguments____trainingarguments___.md)
 3. [Recipe
