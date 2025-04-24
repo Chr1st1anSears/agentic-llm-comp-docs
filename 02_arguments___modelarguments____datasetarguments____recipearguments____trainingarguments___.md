@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Arguments"
+nav_order: 3
+---
+
 # Chapter 2: Arguments (`ModelArguments`, `DatasetArguments`, `RecipeArguments`, `TrainingArguments`)
 
 In [Chapter 1: Entrypoints (`oneshot`, `train`)](01_entrypoints___oneshot____train___.md), we learned about the main "Start" buttons for `llm-compressor`: the `oneshot` function for quick compression and the `train` function for fine-tuning or training-aware compression.

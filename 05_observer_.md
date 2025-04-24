@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Observer"
+nav_order: 6
+---
+
 # Chapter 5: Observer
 
 In [Chapter 4: Modifier](04_modifier_.md), we learned about Modifiers, the tools like `QuantizationModifier` that perform specific compression tasks based on instructions in a [Recipe](03_recipe_.md). We saw that a `QuantizationModifier` can reduce the numerical precision of a model.
