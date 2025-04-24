@@ -43,22 +43,14 @@ flowchart TD
 ## Chapters
 
 1. [Entrypoints (`oneshot`, `train`)](01_entrypoints___oneshot____train___)
-2. [Arguments (`ModelArguments`, `DatasetArguments`, `RecipeArguments`, `TrainingArguments`)
-](02_arguments___modelarguments____datasetarguments____recipearguments____trainingarguments___.md)
-3. [Recipe
-](03_recipe_.md)
-4. [Modifier
-](04_modifier_.md)
-5. [Observer
-](05_observer_.md)
-6. [Compression Session & Lifecycle
-](06_compression_session___lifecycle_.md)
-7. [State
-](07_state_.md)
-8. [Pipelines (`sequential`, `layer_sequential`, `basic`)
-](08_pipelines___sequential____layer_sequential____basic___.md)
-9. [Tracing
-](09_tracing_.md)
+2. [Arguments (`ModelArguments`, `DatasetArguments`, `RecipeArguments`, `TrainingArguments`)](02_arguments___modelarguments____datasetarguments____recipearguments____trainingarguments___)
+3. [Recipe](03_recipe_)
+4. [Modifier](04_modifier_)
+5. [Observer](05_observer_)
+6. [Compression Session & Lifecycle](06_compression_session___lifecycle_)
+7. [State](07_state_)
+8. [Pipelines (`sequential`, `layer_sequential`, `basic`)](08_pipelines___sequential____layer_sequential____basic___)
+9. [Tracing](09_tracing_)
 
 
 ---
