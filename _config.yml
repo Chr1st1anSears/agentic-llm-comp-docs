@@ -1,11 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: LLM Compressor Tutorial
+description: A tutorial for LLM Compressor, built with agentic AI.
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Source Repository: https://github.com/Chr1st1anSears/agentic-llm-comp-docs
 
 # Mermaid settings
 mermaid:
