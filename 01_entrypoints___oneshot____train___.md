@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Entrypoints"
+nav_order: 2
+---
+
 # Chapter 1: Entrypoints (`oneshot`, `train`)
 
 Welcome to the `llm-compressor` tutorial! We're excited to help you learn how to make large language models (LLMs) smaller and faster.
