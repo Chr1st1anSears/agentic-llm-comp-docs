@@ -13,7 +13,7 @@ The core *Compression Session* manages the execution lifecycle, applying modifie
 For complex models or memory-intensive one-shot methods, specialized *Pipelines* (like `sequential`) are used, potentially involving *Tracing* to map data flow. Quantization modifiers rely on *Observers* to determine optimal parameters during calibration.
 
 
-**Source Repository:** [https://github.com/vllm-project/llm-compressor](https://github.com/vllm-project/llm-compressor)
+**Compressor source repository:** [https://github.com/vllm-project/llm-compressor](https://github.com/vllm-project/llm-compressor)
 
 ```mermaid
 flowchart TD
