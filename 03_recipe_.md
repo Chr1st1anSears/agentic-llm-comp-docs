@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Recipe"
+nav_order: 4
+---
+
 # Chapter 3: Recipe
 
 In [Chapter 2: Arguments](02_arguments___modelarguments____datasetarguments____recipearguments____trainingarguments___.md), we learned how different arguments control the `oneshot` and `train` entrypoints. One crucial argument, often found in `RecipeArguments`, is the `recipe` argument. This argument points to the heart of the compression process: the **Recipe**.
