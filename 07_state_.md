@@ -1,3 +1,9 @@
+---
+layout: default
+title: "State"
+nav_order: 8
+---
+
 # Chapter 7: State
 
 In [Chapter 6: Compression Session & Lifecycle](06_compression_session___lifecycle_.md), we learned how the `CompressionSession` and `CompressionLifecycle` act like the head chef and their schedule, coordinating the entire compression process and telling [Modifiers](04_modifier_.md) when to act based on Events.
