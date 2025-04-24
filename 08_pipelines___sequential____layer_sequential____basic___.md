@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Pipelines"
+nav_order: 9
+---
+
 # Chapter 8: Pipelines (`sequential`, `layer_sequential`, `basic`)
 
 In [Chapter 7: State](07_state_.md), we saw how the `State` object provides the necessary context (like the model and data) for [Modifiers](04_modifier_.md) to do their work. Now, let's consider *how* some of these modifiers, especially memory-hungry ones, actually run their processes using calibration data.
