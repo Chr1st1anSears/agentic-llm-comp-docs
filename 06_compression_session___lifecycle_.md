@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Compression Session & Lifecycle"
+nav_order: 7
+---
+
 # Chapter 6: Compression Session & Lifecycle
 
 Welcome back! In [Chapter 5: Observer](05_observer_.md), we saw how Observers act like sensors, gathering data during calibration to help [Modifiers](04_modifier_.md) like `QuantizationModifier` make smart decisions. We've now seen the core components: [Entrypoints](01_entrypoints___oneshot____train___.md) to start, [Arguments](02_arguments___modelarguments____datasetarguments____recipearguments____trainingarguments___.md) to configure, [Recipes](03_recipe_.md) as the plan, [Modifiers](04_modifier_.md) as the tools, and Observers as sensors.
