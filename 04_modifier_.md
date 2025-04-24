@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Modifier"
+nav_order: 5
+---
+
 # Chapter 4: Modifier
 
 In [Chapter 3: Recipe](03_recipe_.md), we learned that a Recipe is like an instruction manual for compressing our model, often written in a YAML file. It tells `llm-compressor` *what* techniques to use and *how* to configure them.
