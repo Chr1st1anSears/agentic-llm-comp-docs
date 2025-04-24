@@ -30,13 +30,13 @@ flowchart TD
     A0 -- "Initializes State via Session" --> A5
     A1 -- "Specifies Modifiers" --> A2
     A2 -- "Accesses/Modifies State" --> A5
-    A2 -- "Uses Observers (for Quantization" --> A8
+    A2 -- "Uses Observers (for Quantization") --> A8
     A3 -- "Specifies Recipe Source" --> A1
     A4 -- "Loads & Compiles Recipe" --> A1
     A4 -- "Executes Modifiers" --> A2
     A4 -- "Holds State" --> A5
     A4 -- "Uses Pipelines (for One-shot)" --> A6
-    A6 -- "Uses Tracing (Sequential Pipelines" --> A7
+    A6 -- "Uses Tracing (Sequential Pipelines") --> A7
 ```
 
 ## Chapters
