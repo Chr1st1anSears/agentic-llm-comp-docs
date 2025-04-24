@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Tracing"
+nav_order: 10
+---
+
 # Chapter 9: Tracing
 
 Welcome to the final chapter of our introductory tutorial! In [Chapter 8: Pipelines (`sequential`, `layer_sequential`, `basic`)](08_pipelines___sequential____layer_sequential____basic___.md), we learned how different pipelines, especially the `sequential` pipeline, help manage memory during the calibration phase of compression techniques like GPTQ. We saw that the `sequential` pipeline is the most robust because it can handle complex model structures.
